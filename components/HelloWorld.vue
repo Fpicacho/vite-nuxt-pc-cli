@@ -6,4 +6,10 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.helloWorld {
+  p {
+    color: red;
+  }
+}
+</style>
