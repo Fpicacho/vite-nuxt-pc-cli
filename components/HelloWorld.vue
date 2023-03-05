@@ -1,6 +1,11 @@
 <template>
   <div class="helloWorld">
-    <p>你好世界！</p>
+    <div class="container">
+      <div class="title">
+        <span class="white">HELLO</span>
+        <span class="black">WORLD</span>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -8,8 +13,35 @@
 
 <style lang="scss" scoped>
 .helloWorld {
-  p {
-    color: red;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  .container {
+    .title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      user-select: none;
+      span {
+        font-family: "FiraMono";
+        font-size: 7rem;
+        padding: 0 20px;
+        margin-left: -20px;
+        letter-spacing: 20px;
+        padding: 0 20px;
+        letter-spacing: 20px;
+      }
+      .white {
+        color: #fff;
+      }
+      .black {
+        color: #000;
+        background: #fff;
+      }
+    }
   }
 }
 </style>
