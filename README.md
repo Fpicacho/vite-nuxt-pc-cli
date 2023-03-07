@@ -1,5 +1,7 @@
 # Nuxt 3 Minimal Starter
 
+基于 Nuxt3 的 pc 端项目模板
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
