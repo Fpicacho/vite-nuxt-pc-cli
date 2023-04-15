@@ -14,7 +14,6 @@
 <style lang="scss" scoped>
 .helloWorld {
   position: relative;
-  width: 100vw;
   min-height: 100vh;
   background: #000;
   color: #fff;
