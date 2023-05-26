@@ -8,13 +8,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^0.4.6",
     "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
-    "nuxt": "^3.3.3",
+    "nuxt": "^3.4.3",
     "sass": "^1.61.0",
     "sass-loader": "^13.2.2"
   },
   "dependencies": {
-    "@nuxt/devtools": "^0.3.2",
     "@pinia/nuxt": "^0.4.8",
     "pinia": "^2.0.34"
   }
