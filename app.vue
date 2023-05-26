@@ -1,6 +1,8 @@
 <template>
   <div class="app">
-    <!-- 全局路由出口 -->
-    <NuxtPage></NuxtPage>
+    <NuxtLayout>
+      <!-- 全局路由出口 -->
+      <NuxtPage></NuxtPage>
+    </NuxtLayout>
   </div>
 </template>

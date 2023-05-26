@@ -1,8 +1,6 @@
 <template>
-  <NuxtLayout name="main">
-    <div>
-      <HelloWorld />
-    </div>
+  <NuxtLayout name="login">
+    <p>登录</p>
   </NuxtLayout>
 </template>
 

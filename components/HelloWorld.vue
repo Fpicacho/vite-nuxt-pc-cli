@@ -14,7 +14,6 @@
 <style lang="scss" scoped>
 .helloWorld {
   position: relative;
-  width: 100vw;
   min-height: 100vh;
   background: #000;
   color: #fff;
@@ -27,7 +26,7 @@
       user-select: none;
       span {
         font-family: "FiraMono";
-        font-size: 7rem;
+        font-size: 20px;
         padding: 0 20px;
         margin-left: -20px;
         letter-spacing: 20px;
