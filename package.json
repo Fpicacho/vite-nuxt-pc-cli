@@ -16,6 +16,9 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.8",
-    "pinia": "^2.0.34"
+    "autoprefixer": "^10.4.14",
+    "pinia": "^2.0.34",
+    "postcss": "^8.4.23",
+    "postcss-pxtorem": "^6.0.0"
   }
 }

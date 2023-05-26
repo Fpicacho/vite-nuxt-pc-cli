@@ -26,7 +26,7 @@
       user-select: none;
       span {
         font-family: "FiraMono";
-        font-size: 7rem;
+        font-size: 20px;
         padding: 0 20px;
         margin-left: -20px;
         letter-spacing: 20px;
